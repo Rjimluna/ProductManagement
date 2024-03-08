@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.productSearchButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.variantContainer {
+    height: 30vh;
+    overflow-y: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttonConfirmation { 
+    margin-top: 10px;
+    display: flex; 
+    justify-content: flex-end; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.productModal {
+    max-height: 74vh;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonUpdate {
+    margin-right: 20px;
 }
