@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from '@firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_API_KEY,
+    apiKey: "AIzaSyChElCJCnDdEyJUk84gcEaW6MVunxsWzKE",
     authDomain: "utak-firebase.firebaseapp.com",
     projectId: "utak-firebase",
     storageBucket: "utak-firebase.appspot.com",
     messagingSenderId: "989735499672",
-    appId: process.env.REACT_APP_APP_ID,
+    appId: "1:989735499672:web:bf610314c1826371845ded",
     measurementId: "G-VXZJRPSFHY"
 };
 
